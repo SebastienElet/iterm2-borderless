@@ -1,15 +1,15 @@
 iterm2-borderless
 ================
 
-Iterm2 binary borderless build on master#6b8cb23
+Iterm2 binary borderless build on master#0232ba4
 
 The patch applied to the original iterm2 is : 
 `````diff
---- a/PseudoTerminal.m
-+++ b/PseudoTerminal.m
-@@ -303,8 +303,7 @@ NSString *kSessionsKVCKey = @"sessions";
+--- PseudoTerminal.m
++++ PseudoTerminal.m
+@@ -323,8 +323,7 @@
              return NSBorderlessWindowMask;
-
+ 
          default:
 -            return (NSTitledWindowMask |
 -                    NSClosableWindowMask |
