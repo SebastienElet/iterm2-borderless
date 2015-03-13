@@ -1,12 +1,5 @@
-iterm2-borderless
-================
-
-Iterm2 binary borderless build on master#0232ba4
-
-The patch applied to the original iterm2 is : 
-`````diff
---- PseudoTerminal.m
-+++ PseudoTerminal.m
+--- iTerm2/sources/PseudoTerminal.m	2015-03-13 12:52:00.000000000 +0100
++++ PseudoTerminal.m	2015-03-13 13:02:03.000000000 +0100
 @@ -323,8 +323,7 @@
              return NSBorderlessWindowMask;
  
@@ -17,6 +10,3 @@ The patch applied to the original iterm2 is :
                      NSMiniaturizableWindowMask |
                      NSResizableWindowMask |
                      NSTexturedBackgroundWindowMask);
-`````
-
-Then a `xcodebuild`
