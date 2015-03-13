@@ -1,0 +1,12 @@
+--- iTerm2/sources/PseudoTerminal.m	2015-03-13 12:52:00.000000000 +0100
++++ PseudoTerminal.m	2015-03-13 13:02:03.000000000 +0100
+@@ -323,8 +323,7 @@
+             return NSBorderlessWindowMask;
+ 
+         default:
+-            return (NSTitledWindowMask |
+-                    NSClosableWindowMask |
++            return (NSClosableWindowMask |
+                     NSMiniaturizableWindowMask |
+                     NSResizableWindowMask |
+                     NSTexturedBackgroundWindowMask);
