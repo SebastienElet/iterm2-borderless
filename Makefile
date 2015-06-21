@@ -20,7 +20,7 @@ build: patch
 	cd iTerm2 && \
 		mkdir bin && \
 		xcodebuild install DSTROOT=./bin
-	mv iTerm2/bin/Applications/iTerm2.app iTerm.app
+	mv iTerm2/bin/Applications/iTerm2.app iTerm2.app
 
 clean-patch: reset
 	rm -rf iTerm2/bin/
