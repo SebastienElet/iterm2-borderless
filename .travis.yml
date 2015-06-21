@@ -4,6 +4,7 @@ deploy:
   api_key:
     secure: LXS8yyI18cCJeZ4VkvSt3h7b3ZNBk7fQI1rMxiRbKvTW8+t62yg9n5o5lfhbsnH6f73uAWg6272CeBHf78dbXjrO5b2yw7idW3vmmCRx4KSYYJnUByH0JjZ9PDZ8FcZgqZF98/jF2Il6PhlELDpOoV2ZacJBfrLNuN9ToHfnKmk=
   file: iTerm2.app
+  skip_cleanup: true
   on:
     tag: true
 script: make build
